@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+    /* Align items with space between them */
+}
+
+.logo {
+    width: 100px;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.bank {
+    font-size: 20px;
+    color: blue;
+}
+
+.statement {
+    font-size: 20px;
+}
+
+.statement {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.deposit {
+    color: green;
+}
+
+.withdrawal {
+    color: red;
+}
